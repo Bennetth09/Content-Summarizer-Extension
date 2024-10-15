@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "name": "Local Content Summarizer",
+  "version": "1.0",
+  "description": "Summarizes the content of the current Webpage",
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "storage"
+  ],
+  "icons": {
+    "16": "icon1.png",
+    "48": "icon2.png",
+    "128": "icon3.png"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icon1.png",
+      "48": "icon2.png",
+      "128": "icon3.png"
+    }
+  }
+}
